@@ -59,8 +59,7 @@ Start Appium Server, click on <b>InspectorMoved</b> to open the github link, che
 </ol>
    
 <h3>Create a Virtual Device</h3>
-A Virtual Device can be created from Android Studio 
-You need to have started an Appium Server up and running before Step #4
+A Virtual Device can be created from Android Studio. You need to have started an Appium Server up and running before Step #4
 <ol>
    <li>Go to the "Device Manager" button at the right side of Android Studio, download and create a device</li>
    <li>Go to the "SDK Manager" button at the right side of Android Studio and check that an SDK is installed (or install one)</li>
