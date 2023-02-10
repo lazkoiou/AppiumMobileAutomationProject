@@ -46,16 +46,16 @@ Open the application
 Start Appium Server, click on <b>InspectorMoved</b> to open the github link, check the Notes, until you reach to <b>Releases</b>. Open it and download the <b>Appium-Inspector-windows-2022.11.1.exe</b>
 
 <h4>Configure Appium Inspector</h4>
+<br>
 1. Set <b>Remote Host</b> as <i>localhost</i>
 2. Set <b>Remote path</b> as <i>/wd/hub/</i>
 3. In Desired Capabilities
-    i.  <b>Name</b> as <i>platformName</i>
-    ii. <b>value</b> as <i>Android</i>  
+- <b>Name</b> as <i>platformName</i>
+- <b>value</b> as <i>Android</i>  
    
 <h3>Create a Virtual Device</h3>
-A Virtual Device can be created from Android Studio <br>
-
-0. You need to have started an Appium Server up and running before Step #4
+A Virtual Device can be created from Android Studio 
+You need to have started an Appium Server up and running before Step #4
 1. Go to the "Device Manager" button at the right side of Android Studio, download and create a device
 2. Go to the "SDK Manager" button at the right side of Android Studio and check that an SDK is installed (or install one)
 3. Go to the SDK folder - example path: "C:\Users\{User}\AppData\Local\Android\Sdk\platform-tools" where <b>adb.exe</b> is located
