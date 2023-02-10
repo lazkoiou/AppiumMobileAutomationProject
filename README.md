@@ -38,31 +38,40 @@ Go to https://appium.io and click to go to the Download page (https://github.com
 
 <h4>Configure APPIUM DESKTOP CLIENT</h4>
 Open the application
-1. Go to <b>Edit Configurations</b>, in ANDROID_HOME add (example) path: "C:\Users\{User}\AppData\Local\Android\Sdk" and verify JAVA_HOME is set
-2. Set <b>Host</b> as <i>localhost</i>
-3. Go to <b>Advanced</b> and enable "Allow CORS" 
-
+<ol>
+   <li>Go to <b>Edit Configurations</b>, in ANDROID_HOME add (example) path: "C:\Users\{User}\AppData\Local\Android\Sdk" and verify JAVA_HOME is set</li>
+   <li>Set <b>Host</b> as <i>localhost</i></li>
+   <li>Go to <b>Advanced</b> and enable "Allow CORS"</li> 
+</ol>
+   
 <h3>Install Appium Inspector</h3>
 Start Appium Server, click on <b>InspectorMoved</b> to open the github link, check the Notes, until you reach to <b>Releases</b>. Open it and download the <b>Appium-Inspector-windows-2022.11.1.exe</b>
 
 <h4>Configure Appium Inspector</h4>
-<br>
-1. Set <b>Remote Host</b> as <i>localhost</i>
-2. Set <b>Remote path</b> as <i>/wd/hub/</i>
-3. In Desired Capabilities
-- <b>Name</b> as <i>platformName</i>
-- <b>value</b> as <i>Android</i>  
+<ol>
+   <li>Set <b>Remote Host</b> as <i>localhost</i></li>
+   <li>Set <b>Remote path</b> as <i>/wd/hub/</i></li>
+   <li>In Desired Capabilities</li>
+   <ul>
+      <li><b>Name</b> as <i>platformName</i></li>
+      <li><b>value</b> as <i>Android</i> <br></li>
+   </ul>
+</ol>
    
 <h3>Create a Virtual Device</h3>
 A Virtual Device can be created from Android Studio 
 You need to have started an Appium Server up and running before Step #4
-1. Go to the "Device Manager" button at the right side of Android Studio, download and create a device
-2. Go to the "SDK Manager" button at the right side of Android Studio and check that an SDK is installed (or install one)
-3. Go to the SDK folder - example path: "C:\Users\{User}\AppData\Local\Android\Sdk\platform-tools" where <b>adb.exe</b> is located
-4. In the current directory, open a cmd and type <b>adb.exe devices</b> to see the connected devices
-
+<ol>
+   <li>Go to the "Device Manager" button at the right side of Android Studio, download and create a device</li>
+   <li>Go to the "SDK Manager" button at the right side of Android Studio and check that an SDK is installed (or install one)</li>
+   <li>Go to the SDK folder - example path: "C:\Users\{User}\AppData\Local\Android\Sdk\platform-tools" where <b>adb.exe</b> is located</li>
+   <li>In the current directory, open a cmd and type <b>adb.exe devices</b> to see the connected devices</li>
+</ol>
+   
 <h3>Mix everything together</h3>
 After all of the above have been completed:
-1. Start a Virtual Device from Android Studio
-2. Start Appium Server
-3. Start Appium Inspector
+<ol>
+   <li>Start a Virtual Device from Android Studio</li>
+   <li>Start Appium Server</li>
+   <li>Start Appium Inspector</li>
+</ol>
