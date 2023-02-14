@@ -53,8 +53,11 @@ Start Appium Server, click on <b>InspectorMoved</b> to open the github link, che
    <li>Set <b>Remote path</b> as <i>/wd/hub/</i></li>
    <li>In Desired Capabilities</li>
    <ul>
-      <li><b>Name</b> as <i>platformName</i></li>
-      <li><b>value</b> as <i>Android</i> <br></li>
+      <li><b>Name</b> as <i>platformName</i>, <b>value</b> as <i>Android</i></li>
+      <li><b>Name</b> as <i>deviceName</i>, <b>value</b> as <i>Nexus 5X API 30</i></li>
+      <li><b>Name</b> as <i>platformVersion</i>, <b>value</b> as <i>11.0</i></li>
+      <li><b>Name</b> as <i>automationName</i>, <b>value</b> as <i>UiAutomator2</i></li>
+      <li><b>Name</b> as <i>app</i>, <b>value</b> as <i>{path to .apk}</i></li>
    </ul>
 </ol>
    
