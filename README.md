@@ -77,3 +77,15 @@ After all of the above have been completed:
    <li>Start Appium Server</li>
    <li>Start Appium Inspector</li>
 </ol>
+
+<h2>Create a batch to start the Virtual Device automatically</h2>
+Go to the path C:\Users\{User}\AppData\Local\Android\Sdk\emulator and get the device name by typing:
+```
+emulator -list-avds
+```
+To achieve this we need to make a batch with the following commands:
+```
+echo Running the Android Virtual Device Nexus_5X_API_30
+cd C:\Users\{User}\AppData\Local\Android\Sdk\emulator
+emulator -avd Nexus_5X_API_30
+```
